@@ -34,6 +34,7 @@ modules:
         - slurp
         - wl-clipboard
         - swayidle
+        - SwayNotificationCenter
         - foot
 
         # Hyprland ecosystem (from solopasha/hyprland COPR)
