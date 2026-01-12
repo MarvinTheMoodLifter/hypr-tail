@@ -36,6 +36,7 @@ modules:
         - swayidle
         - SwayNotificationCenter
         - foot
+        - fish
 
         # Hyprland ecosystem (from solopasha/hyprland COPR)
         - hyprsunset
