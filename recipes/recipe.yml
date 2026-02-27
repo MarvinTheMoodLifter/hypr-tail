@@ -90,6 +90,7 @@ modules:
         - nodejs
         - nodejs-npm
         - qalculate-gtk
+        - pipx
 
         # Multimedia basics
         - ffmpeg-free
@@ -112,7 +113,7 @@ modules:
   - type: script
     scripts:
       - |
-        pip3 install --break-system-packages pyprland
+        pipx install pyprland --global
   - type: default-flatpaks
     configurations:
       - notify: true  # Send notification after install/uninstall is finished (true/false)
